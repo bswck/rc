@@ -1,0 +1,2 @@
+# rc
+My Shell RC.
