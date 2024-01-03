@@ -33,5 +33,5 @@ retreat() {
 }
 
 backoff() {
-    git push -f origin "$1:$(git rev-parse --abbrev-ref HEAD)"
+    git push --force-with-lease origin "$1:$(git rev-parse --abbrev-ref HEAD)"
 }
